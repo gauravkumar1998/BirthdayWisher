@@ -1,0 +1,23 @@
+@font-face {
+    font-family: sans;
+    src: url(asset/google-sans/ProductSans-Light.ttf);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    line-height: 1.5rem;
+}
+a{
+    font-family: sans;
+}
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: sans;
+    line-height: 2rem;
+}

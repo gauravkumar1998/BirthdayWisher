@@ -1,0 +1,15 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-image: url("../pics/bg.jpg");
+}
+@font-face {
+    font-family: sans;
+    src: url(../google-sans/ProductSans-Light.ttf);
+}
+
+*{
+    font-family: sans;
+}
