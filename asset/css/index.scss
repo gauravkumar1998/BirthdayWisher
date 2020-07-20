@@ -3,7 +3,6 @@
         color: #fff;
         text-align: start;
         padding-left: .5rem;
-        font-weight: bold;
     }
     .btn{
         .btn1{
@@ -72,6 +71,7 @@
             .heading{
                 grid-column: 2/3;
                 grid-row: 1/2;
+                padding-top: 0;
                 margin: auto;
             }
             .content{
