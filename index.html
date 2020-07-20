@@ -3,16 +3,66 @@
         <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./asset/css/reset.css">
         <link rel="stylesheet" href="./asset/css/root.css">
+        <link rel="stylesheet" href="./asset/css/common.css">
         <link rel="stylesheet" href="./asset/css/index.css">
-        <title>Send Your Wish!!</title>
+        <script src="./asset/js/script.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <title>Birthday Wisher!!</title>
     </head>
     <body>
         <div class="top">
-            <h2>Welcome to Birthday Wisher..</h2>
+            <div class="logo">
+                <img src="./asset/pics/logo.png" alt="logo">
+            </div>
+            <div class="notify">
+                <i class="fa fa-bell" onclick="burger()" id="notify"></i>
+            </div>
+            <ul class="burger" id="burger1">
+                <li>New Features Coming Soon..</li>
+            </ul>
         </div>
-        <div class="container">
-            <a href="sms:+919999999999?body=Hello World!">Message</a>
 
+        <div class="container">
+            <div class="btn">
+                <div class="btn1">
+                    <button>Home</button>
+                </div>
+                <div class="btn2">
+                    <a href="./memories.html"><button>Memories</button></a>
+                </div>
+            </div>
+            <h2>Today's Birthday..</h2>
+            <div class="today">
+                <div class="dp">
+                    <img src="./asset/pics/dadda.jpg" alt="dp">
+                </div>
+                <div class="heading">
+                    <p>It's AKHILESH SINGH's birthday today.<br>Time to Celebrate!</p>
+                </div>
+                <div class="content">
+                    <p>“Wishing you a day filled with happiness and a year filled with joy. Sending you smiles for every moment of your special day… Have a wonderful time and a very happy birthday. Hope your special day brings you all that your heart desires!"</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="upcoming">
+            <h2>Upcoming Birthdays</h2>
+            <div class="people">
+                <div class="dp">
+                    <img src="./asset/pics/punnu.jpg" alt="dp">
+                </div>
+                <div class="name">
+                    <h3>Poonam Yadav</h3>
+                </div>
+            </div>
+            <div class="people">
+                <div class="dp">
+                    <img src="./asset/pics/vg.jpg" alt="dp">
+                </div>
+                <div class="name">
+                    <h3>Vaibhav Gupta</h3>
+                </div>
+            </div>
         </div>
     </body>
 </html>

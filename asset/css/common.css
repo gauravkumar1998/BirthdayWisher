@@ -1,0 +1,99 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  color: #000;
+}
+
+@font-face {
+  font-family: sans;
+  src: url(../google-sans/ProductSans-Light.ttf);
+}
+
+* {
+  font-family: sans;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.top .logo {
+  grid-column: 1/2;
+  text-align: start;
+}
+
+.top .logo img {
+  max-width: 130px;
+  height: auto;
+  padding: .5rem .7rem;
+}
+
+.top .notify {
+  grid-column: 2/3;
+  text-align: end;
+}
+
+.top .notify .fa {
+  padding: 1.3rem 1rem;
+  color: #606060;
+}
+
+.top .burger {
+  display: none;
+}
+
+.top .show {
+  display: block;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 3px 3px #000;
+  border: 2px solid #000;
+  border-radius: 5px;
+  text-align: center;
+  padding: .7rem .7rem;
+  max-width: 300px;
+  top: 220;
+  left: 60;
+  overflow: auto;
+  z-index: 1;
+}
+
+.container {
+  background: linear-gradient(to top left, #6600cc 0%, #6699ff 100%);
+  padding: 2rem 1rem;
+  margin: 0rem .7rem;
+  border-radius: 15px;
+}
+
+.container .btn {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.container .btn .btn1 {
+  grid-column: 1/2;
+}
+
+.container .btn .btn1 button {
+  border-style: none;
+  border-radius: 5px;
+  font-size: large;
+  padding: .5rem 3rem;
+  background: #ffffff;
+}
+
+.container .btn .btn2 {
+  grid-column: 2/2;
+}
+
+.container .btn .btn2 button {
+  border-style: none;
+  border-radius: 5px;
+  font-size: large;
+  padding: .5rem 2.1rem;
+  background: #ffffff;
+}
