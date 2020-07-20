@@ -32,7 +32,7 @@
 .container .today .heading {
   grid-row: 2/3;
   grid-column: 1/2;
-  padding-top: 1.5rem;
+  padding: 1.5rem 0;
 }
 
 .container .today .heading p {
@@ -73,7 +73,6 @@
   .container .today .heading {
     grid-column: 2/3;
     grid-row: 1/2;
-    padding-top: 0;
     margin: auto;
   }
   .container .today .content {
