@@ -54,10 +54,29 @@ body{
     }
 }
 
+@media only screen and (min-width:800px){
+    .top{
+        .logo{
+            img{
+                max-width: 150px;
+                padding: .5rem 2rem;
+            }
+        }
+        .notify{
+            .fa{
+                padding: 1.3rem 2rem;
+            }
+        }
+        .show{
+            left: 550;
+        }
+    }
+}
+
 .container{
     background: linear-gradient(to top left, #6600cc 0%, #6699ff 100%);
     padding: 2rem 1rem;
-    margin: 0rem .7rem;
+    margin: 0 .7rem;
     border-radius: 15px;
     .btn{
         display: grid;
@@ -80,6 +99,24 @@ body{
                 font-size: large;
                 padding: .5rem 2.1rem;
                 background: #ffffff;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:800px){
+    .container{
+        margin: 0 2rem;
+        .btn{
+            .btn1{
+                button{
+                    padding: .5rem 6rem;
+                }
+            }
+            .btn2{
+                button{
+                    padding: .5rem 6rem;
+                }
             }
         }
     }

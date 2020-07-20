@@ -62,10 +62,23 @@ body {
   z-index: 1;
 }
 
+@media only screen and (min-width: 800px) {
+  .top .logo img {
+    max-width: 150px;
+    padding: .5rem 2rem;
+  }
+  .top .notify .fa {
+    padding: 1.3rem 2rem;
+  }
+  .top .show {
+    left: 550;
+  }
+}
+
 .container {
   background: linear-gradient(to top left, #6600cc 0%, #6699ff 100%);
   padding: 2rem 1rem;
-  margin: 0rem .7rem;
+  margin: 0 .7rem;
   border-radius: 15px;
 }
 
@@ -96,4 +109,16 @@ body {
   font-size: large;
   padding: .5rem 2.1rem;
   background: #ffffff;
+}
+
+@media only screen and (min-width: 800px) {
+  .container {
+    margin: 0 2rem;
+  }
+  .container .btn .btn1 button {
+    padding: .5rem 6rem;
+  }
+  .container .btn .btn2 button {
+    padding: .5rem 6rem;
+  }
 }
